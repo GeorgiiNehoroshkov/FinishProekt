@@ -9,13 +9,13 @@ body {
     margin: 20px auto;
     display: block;
 }
-.заголовок {
+.heading {
     text-align: center;
     border: 1px solid rgba(0, 0, 255, 0.448);
     background: rgba(0, 0, 255, 0.448);
     border-radius: 10px;
 }
-.p {
+.list {
     border: 1px solid rgba(255, 0, 0, 0.448);
     background: rgba(255, 0, 0, 0.448);
     border-radius: 10px;
