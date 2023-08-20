@@ -25,12 +25,13 @@ body {
 .navbar ul,li,a {
     list-style-type: none;
     display: flex;
-    
-    
     text-decoration: none;
-    background: blue;
+    background: rgb(11, 11, 240);
     color: #f4f4f4;
 }
+.navbar ul li a:hover {
+    background: #6076e7c6;
+  }
 .navbar ul {
     height: 40px;
     margin-top: 0;

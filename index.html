@@ -1,13 +1,12 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <title>Магазин</title>
 </head>
 <body>
-  <br>
   <nav class="navbar">
     <ul>
       <li><a href="#">о нас</a></li>
@@ -16,20 +15,44 @@
       <li><a href="#">улуги</a></li>
     </ul>
   </nav>
-  <!-- <img src="https://avatars.mds.yandex.net/i?id=1a2a5df820841691eec98adead92832535c5319a-7904411-images-thumbs&n=13" class="img" alt="happi bersday"> -->
-  <h1 class="heading">О нас</h1>
-  <h3 class="heading">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime labore accusantium quas vero ipsa deleniti, consequatur distinctio quam eaque? Maiores voluptatem assumenda nesciunt corporis beatae nemo officiis autem sit quam?</h3>
+  <img src="https://avatars.mds.yandex.net/i?id=d5fb533dfa37e61da1c20aa9ee946b9ee39d7e33-10577947-images-thumbs&n=13" class="img" alt="">
+    <h1 class="heading">О нас</h1>
+    <p class="heading">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem magnam maiores modi sint error eveniet necessitatibus aut pariatur unde ex non tenetur impedit atque mollitia quibusdam magni, reprehenderit sed vitae laboriosam? Id dolorem error sapiente laborum molestias deleniti vitae vel deserunt minus aspernatur magni dolorum praesentium tenetur, est sed illum?</p>
+    <h3 class="heading">почему мы?</h3>
+    <div class="list">
+      <ul>
+          <ol>сотрудники со стажем 10 лет.</ol>
+          <ol>Низкие цены.</ol>
+          <ol>Экологичные продукты.</ol>
+          <ol>Постоянные скидки.</ol>
+          <ol>Хорошее отношеие к покупателям.</ol>
+      </ul>
+    </div>
+    <form action="/" class="form">
+        <h2>Связаться с нами</h2>
   
-  <h2 class="heading" >Почему именно мы?</h2>
-  <div class="list">
-    <ul>
-      <ol>1. Lorem ipsum dolor sit amet.</ol>
-      <ol>2. Lorem ipsum dolor sit amet.</ol>
-      <ol>3. Lorem ipsum dolor sit amet consectetur adipisicing.</ol>
-      <ol>4. Lorem ipsum dolor sit amet consectetur.</ol>
-      <ol>5. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, repudiandae?</ol>
-    </ul>
-  </div>
-</ul>
+        <div class="form-row">
+  
+          <div class="form-group">
+            <label for="name">Ваше имя:</label>
+            <input type="text" id="name" placeholder="Введите имя">
+          </div>
+  
+          <div class="form-group">
+            <label for="email">Ваш email:</label>
+            <input type="email" id="email" placeholder="Введите email">
+          </div>
+        </div>
+        
+        <div class="form-group">
+          <label for="message">Ваше сообщение:</label>
+          <textarea id="message" cols="20" rows="5" placeholder="Введите сообщение..."></textarea>
+        </div>
+  
+        <input class="btn" type="submit" value="Отправить!">
+      </form>
+  
+      <br>
+
 </body>
 </html>
